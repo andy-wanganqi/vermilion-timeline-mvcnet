@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "allowAzureIps": {
+            "value": true
+        },
+        "enableADS": {
+            "value": false
+        },
+        "location": {
+            "value": "southeastasia"
+        },
+        "serverName": {
+            "value": "vn-timeline-dbserver-staging"
+        },
+        "enableVA": {
+            "value": false
+        },
+        "vaStoragelessEnabled": {
+            "value": false
+        },
+        "useVAManagedIdentity": {
+            "value": false
+        },
+        "serverTags": {
+            "value": {}
+        },
+        "minimalTlsVersion": {
+            "value": "1.2"
+        },
+        "publicNetworkAccess": {
+            "value": "enabled"
+        },
+        "administratorLogin": {
+            "value": "vermiliontimelineadmin"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "administrators": {
+            "value": {
+                "administratorType": "activeDirectory",
+                "login": "andy.wanganqi_gmail.com#EXT#@andywanganqigmail.onmicrosoft.com",
+                "sid": "8331f300-6547-4b11-a555-f39d0c170012",
+                "tenantId": "8346c613-229a-44ff-bbb1-ca9e4691d032",
+                "azureADOnlyAuthentication": false,
+                "principalType": "User"
+            }
+        }
+    }
+}

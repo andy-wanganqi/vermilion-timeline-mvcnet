@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VermilionTimeline.Frontend", "VermilionTimeline.Frontend\VermilionTimeline.Frontend.csproj", "{0891335A-4FD5-40CA-B370-474C69100680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VermilionTimeline.IdentityDataAccess", "VermilionTimeline.IdentityDataAccess\VermilionTimeline.IdentityDataAccess.csproj", "{E73D2635-E36B-4992-93EF-A6BC95E17514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VermilionTimeline.MainDataAccess", "VermilionTimeline.MainDataAccess\VermilionTimeline.MainDataAccess.csproj", "{EE49B66F-8B16-429D-BBFA-F10FC70FE3AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0891335A-4FD5-40CA-B370-474C69100680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0891335A-4FD5-40CA-B370-474C69100680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0891335A-4FD5-40CA-B370-474C69100680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0891335A-4FD5-40CA-B370-474C69100680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73D2635-E36B-4992-93EF-A6BC95E17514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73D2635-E36B-4992-93EF-A6BC95E17514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73D2635-E36B-4992-93EF-A6BC95E17514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73D2635-E36B-4992-93EF-A6BC95E17514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE49B66F-8B16-429D-BBFA-F10FC70FE3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE49B66F-8B16-429D-BBFA-F10FC70FE3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE49B66F-8B16-429D-BBFA-F10FC70FE3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE49B66F-8B16-429D-BBFA-F10FC70FE3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F5A38FE-D16B-44C7-9285-820EF8C82FB8}
+	EndGlobalSection
+EndGlobal
