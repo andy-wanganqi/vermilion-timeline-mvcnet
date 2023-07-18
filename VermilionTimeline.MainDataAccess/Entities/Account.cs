@@ -9,9 +9,9 @@ namespace VermilionTimeline.MainDataAccess.Entities
     public class Account
     {
         public Guid Id { get; set; }
-        public string ShortName { get; set; }
-        public string FullName { get; set; }
-        public string Status { get; set; }
+        public string ShortName { get; set; } = string.Empty;
+        public string FullName { get; set; } = string.Empty;
+        public string Status { get; set; } = string.Empty;
 
         public ICollection<AccountClaim> AccountClaims { get; set; }
         public ICollection<Area> Areas { get; set; }

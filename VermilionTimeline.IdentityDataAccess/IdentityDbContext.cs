@@ -19,23 +19,21 @@ namespace VermilionTimeline.IdentityDataAccess
             base.OnModelCreating(builder);
 
             // Initial roles
-            var adminRoleId = "dc2bb782-be50-4a99-87f7-5515457cc680";
-            var userRoleId = "b54918b5-eb1a-42c2-907e-594850d52ba2";
             var roles = new List<IdentityRole>
             {
                 new IdentityRole
                 {
-                    Name= "Admin",
-                    NormalizedName = "Admin",
-                    Id = adminRoleId,
-                    ConcurrencyStamp = adminRoleId
+                    Name= IdentityRoles.Admin,
+                    NormalizedName = IdentityRoles.Admin,
+                    Id = IdentityRoles.AdminRoleId,
+                    ConcurrencyStamp = IdentityRoles.AdminRoleId,
                 },
                 new IdentityRole
                 {
-                    Name = "User",
-                    NormalizedName = "User",
-                    Id = userRoleId,
-                    ConcurrencyStamp = userRoleId
+                    Name = IdentityRoles.User,
+                    NormalizedName = IdentityRoles.User,
+                    Id = IdentityRoles.UserRoleId,
+                    ConcurrencyStamp = IdentityRoles.UserRoleId,
                 }
             };
             builder.Entity<IdentityRole>().HasData(roles);
@@ -59,7 +57,7 @@ namespace VermilionTimeline.IdentityDataAccess
             {
                 new IdentityUserRole<string>
                 {
-                    RoleId = adminRoleId,
+                    RoleId = IdentityRoles.AdminRoleId,
                     UserId = adminId
                 },
             };
